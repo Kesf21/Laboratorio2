@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* <--header--> */
+.header{
+    width:100%;
+    background-color: beige;
+}
+
+.container{
+    width:90%;
+    margin:0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.container .navegacion > a{
+    color:black;
+    text-decoration: none;
+    padding-left: 2.5em;
+    font-family: 'Tahoma';
+
+}
+
+.navegacion a:hover{
+    color: rgb(46, 141, 250);
+}
+/* <-- cierre de mi header -->*/
