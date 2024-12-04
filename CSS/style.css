@@ -7,7 +7,7 @@
 /* <--header--> */
 .header{
     width:100%;
-    background-color: beige;
+    background-color: burlywood ;
 }
 
 .container{
@@ -128,7 +128,7 @@ body {
 
 .about {
     padding: 40px 20px;
-    background-color: #f8f4f0; 
+    background-color: burlywood; 
     font-family: Arial, sans-serif;
 }
 
@@ -149,7 +149,7 @@ body {
 
 .about-text h2 {
     font-size: 28px;
-    color: #2e3b4e; 
+    color: #333; 
     margin-bottom: 15px;
 }
 
@@ -174,7 +174,7 @@ body {
 }
 
 .footer {
-    background-color: #2e3b4e; /* Color oscuro para el fondo */
+    background-color: rgb(189, 148, 94); /* Color oscuro para el fondo */
     color: white;
     padding: 20px 0;
     font-family: Arial, sans-serif;
@@ -213,10 +213,11 @@ body {
     margin-bottom: 10px;
     border: none;
     border-radius: 5px;
+    font-family: Arial;
 }
 
 .footer-form form button {
-    background-color: #f4a261;
+    background-color: #965f2c;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -225,7 +226,7 @@ body {
 }
 
 .footer-form form button:hover {
-    background-color: #e76f51;
+    background-color: #774c24;
 }
 
 /* Enlaces rápidos */
@@ -260,14 +261,10 @@ body {
 
 .footer-links ul li a:hover,
 .footer-social ul li a:hover {
-    color: #f4a261;
+    color: #774c24;
 }
 
-/* Imagen de pie de página */
-.footer-image {
-    text-align: center;
-    margin-top: 20px;
-}
+
 
 .footer-image img {
     max-width: 100%;
