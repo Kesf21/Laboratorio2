@@ -172,3 +172,106 @@ body {
     border-radius: 10px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
+
+.footer {
+    background-color: #2e3b4e; /* Color oscuro para el fondo */
+    color: white;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Formulario de contacto */
+.footer-form {
+    flex: 1;
+    margin: 10px;
+}
+
+.footer-form h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.footer-form form label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.footer-form form input,
+.footer-form form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.footer-form form button {
+    background-color: #f4a261;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer-form form button:hover {
+    background-color: #e76f51;
+}
+
+/* Enlaces rápidos */
+.footer-links,
+.footer-social {
+    flex: 1;
+    margin: 10px;
+}
+
+.footer-links h3,
+.footer-social h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.footer-links ul,
+.footer-social ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li,
+.footer-social ul li {
+    margin-bottom: 10px;
+}
+
+.footer-links ul li a,
+.footer-social ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-links ul li a:hover,
+.footer-social ul li a:hover {
+    color: #f4a261;
+}
+
+/* Imagen de pie de página */
+.footer-image {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
